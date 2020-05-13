@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Johana y Josue</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,500,600,700" rel="stylesheet" type="text/css">
+    <style>
+        html, body {
+            margin:0;
+            padding:0;
+        }
+        
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font-size: 1.8rem;
+            background:linear-gradient(top, #D1EBFF, #FFDCFE);
+			background:-webkit-linear-gradient(top, #D1EBFF, #FFDCFE);
+			background:-moz-linear-gradient(top, #D1EBFF, #FFDCFE);
+			background:-o-linear-gradient(top, #D1EBFF, #FFDCFE);
+			background:-ms-linear-gradient(top, #D1EBFF, #FFDCFE);
+        }
+
+        header {
+            text-align: center;
+        }
+        
+        main > header {
+            background:linear-gradient(top, #FFDCFE, #D1EBFF);
+			background:-webkit-linear-gradient(top, #FFDCFE, #D1EBFF);
+			background:-moz-linear-gradient(top, #FFDCFE, #D1EBFF);
+			background:-o-linear-gradient(top, #FFDCFE, #D1EBFF);
+			background:-ms-linear-gradient(top, #FFDCFE, #D1EBFF);
+        }
+
+        h1 {
+            color:#003366;
+            font-size: 30px;
+            font-size:3rem;
+            -webkit-column-span:all;
+            -moz-column-span:all;
+            column-span:all;
+        }
+
+        a {
+            text-decoration: none;
+            color:#036;
+        }
+
+        #galeria {
+            margin: 1rem auto;
+            width:100%;
+            max-width:960px;
+            padding:0 20px 20px;
+            box-sizing: border-box;
+            column-count: 3;
+
+            /* Espacio entre columnas */
+            -moz-column-gap: 20px;
+            -webkit-column-gap: 20px;
+            column-gap: 20px;
+            
+            /* Filete entre columnas */
+            /*-moz-column-rule: 1px solid #bbb;
+            -webkit-column-rule: 1px solid #bbb;
+            column-rule: 1px solid #bbb;*/
+
+
+        }
+        
+        #galeria header {
+            -webkit-column-span:all;
+            column-span:all;
+        }
+
+        article {
+            background:#fff;
+            border-radius:5px;
+            border:1px solid #ccc;
+            margin:0 0 20px 0;
+            text-align: center;
+            max-width: 100%;
+            filter: opacity(70%);
+
+            /*Evitamos que se corte al cambiar de columna*/
+            break-inside: avoid;
+            page-break-inside: avoid;         
+       
+        }
+        
+        article img {
+            width:100%;
+        }
+
+        article:hover {
+            transition: .5s ease;
+            filter: opacity(100%);
+        }
+
+        figure {
+            padding:1rem;
+            box-sizing: border-box;
+        }
+
+ 
+        /* Móviles en horizontal o tablets en vertical */
+        @media (max-width: 767px) { 
+            #galeria {
+                columns:2;
+            }
+
+        }
+        
+        /* Móviles en vertical */
+
+        @media (max-width: 480px) {
+            #galeria {
+                columns: 1;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div id="logowrap">
+                <img src="imagenes/jyj.png" alt="Johana y Josue" />
+            </div>
+           
+        </header>
+        <section id="galeria">
+        <header>
+            <h1>Recuerdos 💕</h1>
+        </header>
+        <article>
+            <a target="_blank" href="#" onclick="window.open('imagenes/primeraCita.jpg','TITULO','width =550,height=400');">
+                <figure>
+                    <img src="imagenes/primeraCita.jpg" />
+                    <figcaption>Nuestra Primera Cita 💑 <3 comiendo para variar :P</figcaption>
+                </figure>
+            </a>
+        </article>
+        <article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/primeraCita2.jpg" />
+                        <figcaption>Nuestra Primera Cita 2da Version :* 😈 </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article>
+                    <a target="_blank">
+                        <figure>
+                            <img src="imagenes/pinguinos.jpg" />
+                            <figcaption>Y seguimos siendo esos Pingüinos °> 🐧</figcaption>
+                        </figure>
+                    </a>
+                </article>
+            
+        <article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/nina.jpg" />
+                        <figcaption>Y que nos escapamos un ratito, ME ENCANTA mi niña, mi werita :3</figcaption>
+                    </figure>
+                </a>
+            </article>
+
+            <article>
+            <a target="_blank">
+                <figure>
+                    <img src="imagenes/metro.jpg" />
+                    <figcaption>Juntos con la naturaleza 🐢</figcaption>
+                </figure>
+            </a>
+        </article>
+
+        <article>
+            <a target="_blank">
+                <figure>
+                    <img src="imagenes/portales.jpg" />
+                    <figcaption>En los portales de la ciudad <3</figcaption>
+                </figure>
+            </a>
+        </article>
+        <article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/kioskoSanMay.jpg" />
+                        <figcaption>Nuestro primer viaje a San May :3 un poco de adrenalina casi dormimos en la calle :|</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/IglesiaSanMay.jpg" />
+                        <figcaption>En la catedral de San Mike :)</figcaption>
+                    </figure>
+                </a>
+            </article>
+        <article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/estatua.jpg" />
+                        <figcaption>En San May tratando que se viera la estatua y nomas nada :|</figcaption>
+                    </figure>
+                </a>
+        </article>
+
+        <article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tepe.jpg" />
+                        <figcaption>Visitando Hidalgo, bueeeno Tephe con mi familia, gracias <3 Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+        <article>
+            <a target="_blank">
+                <figure>
+                    <img src="imagenes/tepe2.jpg" />
+                    <figcaption>Bien acalorados pero ya en la sombrita</figcaption>
+                </figure>
+            </a>
+        </article>
+        <article>
+            <a target="_blank">
+                <figure>
+                    <img src="imagenes/tepe3.jpg" />
+                    <figcaption>Explorando Tephe :3</figcaption>
+                </figure>
+            </a>
+        </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tepememe.jpg" />
+                        <figcaption>Debajo del mar... bueno del agua con caras pa memes :D (se extraña ese celular :,( )</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/ixmi.jpg" />
+                        <figcaption>En el centro de tu corazón <3 ok no u.u de Ixmiquilpan :3</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/ixmi2.jpg" />
+                        <figcaption>Ixmiquilpan mas de cerca... pero nosotros xD y mas oscuros tambien</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/mazamitla1.jpg" />
+                        <figcaption>En Mazamitla, es tan bello y grande que no cupo ni el nombre en la foto xD</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/mazamitla.jpg" />
+                        <figcaption>Perdidos en el bosque de Mazamitla</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/xilitla.jpg" />
+                        <figcaption>En Xilitla visitando a Edward James :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/xilitla2.jpg" />
+                        <figcaption>De cerquita en Xilitla con el Edward, bueno su espiritu</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/cuevahuasteca.jpg" />
+                        <figcaption>La cueva en tamul</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tamul.jpg" />
+                        <figcaption>En Tamul, y que se enojan porque nos andabamos bañando en el rio :|</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/girasoles.jpg" />
+                        <figcaption>Los girasoles, desvelandonos, nadando y algo más :)</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/guapos.jpg" />
+                        <figcaption>En la boda, tu bien hermosa <3 </figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/escondidoPlace.jpg" />
+                        <figcaption>En un lugar escondido</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bellasArtes.jpg" />
+                        <figcaption>En chilangolandia, nunca digas nunca :D, Bellas Artes</figcaption>
+                    </figure>
+                </a>
+            </article>
+		<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/TorreLatino.jpg" />
+                        <figcaption>Bellas Artes desde la Torre Latino, un cafecin</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/moroleon.jpg" />
+                        <figcaption>Oootra boda, la del Chuz, siempre me confundo si estabamos en Moroleon o Uriangato, pero de que habia motos habia</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/cumple.jpg" />
+                        <figcaption>Festejando a la más hermosa :* </figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/amigos.jpg" />
+                        <figcaption>Con los compas, festejando a quien nos unio :3</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/soloRap.jpg" />
+                        <figcaption>Solo Rap B) Muchas gracias Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/hiphop.jpg" />
+                        <figcaption>Acheipe acheope B)</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bautizoroja1.jpg" />
+                        <figcaption>En el bautizo de la hija de rojo :3 en la mesota con todos</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bautizoroja2.jpg" />
+                        <figcaption>En el bautizo de la hija de rojo :3 en la mesota con todos, de cerca y maaas oscuros</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bautizoroja3.jpg" />
+                        <figcaption>Una como que no nos damos cuenta en el bautizo de la hija de rojo :v</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/pizza.jpg" />
+                        <figcaption>Despues de echarnos unas rebanadas de pizza y pagar dempas u.u pero que bien se ve el Expiatorio hermoso como tú</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/graduajosue1.jpg" />
+                        <figcaption>Agradecido por tu apoyo y acompañamiento para este logro <3 Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/graduajosue2.jpg" />
+                        <figcaption>Mas sonrojados, aunque es por el fondo, gracias amor</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/gradujosue.jpg" />
+                        <figcaption>Muchisimas gracias mi amor, blanco y negro <3 </figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/alberca.jpg" />
+                        <figcaption>Despues de una pizzita con los amigos</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/alberca2.jpg" />
+                        <figcaption>En la casa donde asustan en la noche, o más bien nosotros asustando jeje Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bodaandrea.jpg" />
+                        <figcaption>Una boda más, un poco tarde a la misa :|</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/nuevo.jpg" />
+                        <figcaption>Un año nuevo juntos en casa, no de nosotros aun pero ya casi :)</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/sanjuandedios.jpg" />
+                        <figcaption>Una noche en San Juan de Dios despues de las duyitas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/noche.jpg" />
+                        <figcaption>Una noche en casa, a ver serie o a dormir creo que la 2da :v</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/noche2.jpg" />
+                        <figcaption>Yo mejor mescondo porque me wa quedar dormido xD</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tlayuda.jpg" />
+                        <figcaption>Pos para variarle en el comercio, una pequeña tlayuda</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tlayuda2.jpg" />
+                        <figcaption>Ñammm con todo contra la tlayuda</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/tlayuda3.jpg" />
+                        <figcaption>Ñammmm2 esa tlayuda no tiene fin</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/amigos2.jpg" />
+                        <figcaption>Se nos van otros :,( jaja nocierto cada vez seremos más :3, con los compas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bodaleo.jpg" />
+                        <figcaption>En el bodorrio del Leo en la mesa ya juntitos todos, taba rica la comida :v </figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bodaleo2.jpg" />
+                        <figcaption>Una paraditos antes del bailongo jaja como si de verdad fuera mucho bailongo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas1.jpg" />
+                        <figcaption>Pos nos juimos a las grutas, despues de un rato de caminata con maletas, una refrescadita en las casaditas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas2.jpg" />
+                        <figcaption>Pos amosle a caminar pa las grutas, que paisaje <3 y lo más importante que buena compañia Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas3.jpg" />
+                        <figcaption>Ira... acercate más vamonos pa las grutas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas4.jpg" />
+                        <figcaption>Irala si te acercaste... ya merito</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas5.jpg" />
+                        <figcaption>Hijole ahi vienes ya hasta se me cayó la playera</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas6.jpg" />
+                        <figcaption>Pos ya que ests cerquita pos que nos metemos a lo mojao, casi hipotermia al entrar</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas7.jpg" />
+                        <figcaption>Ve nomas como cae el agua, y la multitud, y lo más importante tu y tu sonrisa <3 </figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas8.jpg" />
+                        <figcaption>Pos una fotillo mojados y en las sombras por que no?</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas9.jpg" />
+                        <figcaption>Pos ya nos salimos medio secaos</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas10.jpg" />
+                        <figcaption>Descansando esperando la organización, ve nomas que rojos, a es el fondo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas11.jpg" />
+                        <figcaption>Eso me encantaaaaa Te amooo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas12.jpg" />
+                        <figcaption>Ya mas blanquitos, bueeeenooo nomas porque era de noche</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas13.jpg" />
+                        <figcaption>Afuera en la oscuridad, solos tu y yo, na nocierto habia mas gente</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas14.jpg" />
+                        <figcaption>A la luz de la luna y la fogata con los amigos</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas15.jpg" />
+                        <figcaption>:3 :* Me encantaaaasssss Te amoooo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas16.jpg" />
+                        <figcaption>Grrrr que sexi y en la oscuridad, un poquitin de alcohol</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas17.jpg" />
+                        <figcaption>Pos de nuevo al nade</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas18.jpg" />
+                        <figcaption>Desde el puente, con miedo a caer :S bueno yo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas20.jpg" />
+                        <figcaption>Pos en el comer-cio pa variarle</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas.jpg" />
+                        <figcaption>En la pscina desde lo mas alto, tu, yo, la naturaleza <3 bueeeno y mas gente, mucha más diría yo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas21.jpg" />
+                        <figcaption>Ya con menos multitud en las piscinas más calientitas, pero pa irnos que sino el camion nos deja</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas22.jpg" />
+                        <figcaption>La ultima cena, ok no, pero si la ultima comida de esa aventura :,( </figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/grutas23.jpg" />
+                        <figcaption>Laaaaastima que termino el feestival de ese día, pero esperaaa que hermosa vista (tu) a si tambien la naturaleza es hermosa, pero tu le ganas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/bodavale.jpg" />
+                        <figcaption>Ooootra boda entre viajes :P la de Vale</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro.jpg" />
+                        <figcaption>Ahora nos juimos a Queretaro, pos al vino, llegando, que seriedad, o será que nos ibamos despertando</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro2.jpg" />
+                        <figcaption>Ya mas despiertitos una sonrisita y a aprender del vino</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro3.jpg" />
+                        <figcaption>Pos vamos a sonreir :)</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro4.jpg" />
+                        <figcaption>Nos hacemos un vinito con los pies o que xD</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro5.jpg" />
+                        <figcaption>Echando el vino</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro6.jpg" />
+                        <figcaption>En la caminata, pero que bonita pared y hermosa werita</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro7.jpg" />
+                        <figcaption>En la Peña ya bien cansados por subirla jaja nocierto desde abajito, no se rifo con la foto</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/queretaro7.jpg" />
+                        <figcaption>En la Peña ya bien cansados por subirla jaja nocierto desde abajito, no se rifo con la foto</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/graduajoha.jpg" />
+                        <figcaption>Un honor acompañarte en ese momento :3 Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/gradujoha.jpg" />
+                        <figcaption>Hora de las fotos, ese cambio de luz jugaba con nosotros, pero tu hermosa</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/gradujoha2.jpg" />
+                        <figcaption>Mejor a blanco y negro, Te amoooooo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/gradujoha3.jpg" />
+                        <figcaption>Con la familia, y yo... SOY BATMAN (voz de Sheldon). Me encantasss :*</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/espera.jpg" />
+                        <figcaption>Un día de los de espera, muchas gracias</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/model.jpg" />
+                        <figcaption>Fotos en la oscuridad un dia lluvioso</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/model2.jpg" />
+                        <figcaption>Esa sonrisa, esa pose <3 me encantas</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/model3.jpg" />
+                        <figcaption>Intentando mejorar las poses</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/model4.jpg" />
+                        <figcaption>Aaaa :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/model5.jpg" />
+                        <figcaption>Eres miaaaa :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/carrera.jpg" />
+                        <figcaption>Despues de una gran carrera.... pero por los tacos al vapor :D</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/rol.jpg" />
+                        <figcaption>Dando el rol, pero que hermosura :3</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/madero.jpg" />
+                        <figcaption>Madereando, un mezcalito? Que buen baile, que buena noche</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/calzada.jpg" />
+                        <figcaption>Pues despues de unas rockstar, pero ensaladas :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/baile.jpg" />
+                        <figcaption>A echar poquito baile, tu bien hermosa</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/sushi.jpg" />
+                        <figcaption>A comerrrr sushi en Poupurri</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/sushi.jpg" />
+                        <figcaption>Que delicica se ve</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/sushi.jpg" />
+                        <figcaption>Intentando ser influencers</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/casa.jpg" />
+                        <figcaption>In the house.... hermosa</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/casa2.jpg" />
+                        <figcaption>Cambiando un poco las poses y tu hermosa</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces.jpg" />
+                        <figcaption>En el festival de las luces con el xolo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces2.jpg" />
+                        <figcaption>Un poco borrosa y oscura pero se ven las luces :3</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces3.jpg" />
+                        <figcaption>Una de lejitos, tenemos que buscar un buen angulo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces4.jpg" />
+                        <figcaption>En el altar, me gusta tu sonrisa :*</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces5.jpg" />
+                        <figcaption>Se ve un poco más el altar</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces6.jpg" />
+                        <figcaption>Nos vemos más nosotros y un poquitin el altar más bien el papel picado</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces7.jpg" />
+                        <figcaption>Somos malos, tomando mezcalito detras de los policias jaja</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/luces8.jpg" />
+                        <figcaption>Listos para el concierto de Kinky... A donde van?....</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/boda.jpg" />
+                        <figcaption>Despues de una posadita con unos taquitos oootra boda :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/navidad.jpg" />
+                        <figcaption>En la epoca navideña, despues de ver... Jexi</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/navidad2.jpg" />
+                        <figcaption>Me encantasssss</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/feria.jpg" />
+                        <figcaption>En la feria de leon 2020</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/imax.jpg" />
+                        <figcaption>A ver la pantallota en la feria</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/hielo.jpg" />
+                        <figcaption>Primera vez de todas las que fuimos a ver el patinaje sobre hielo Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/esperaluces.jpg" />
+                        <figcaption>En la fila de un buen negocio :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/rojo.jpg" />
+                        <figcaption>Hermosaaa, esos labios rojos carmin grrr</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/rojo2.jpg" />
+                        <figcaption>Me encantas :* Te amoooo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/rojo3.jpg" />
+                        <figcaption>Siiii pude besar esos lindos labios rojooooos :*</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/cumples.jpg" />
+                        <figcaption>Despues de la cena de cumple de la más hermosa :* Gracias</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/fiesta.jpg" />
+                        <figcaption>En el festejo de cumple de la más hermosa :* Gracias x2 Te amo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/xv.jpg" />
+                        <figcaption>Regresando de los XV o bueno de los taquitos mmm :P</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<article>
+                <a target="_blank">
+                    <figure>
+                        <img src="imagenes/johana.jpg" />
+                        <figcaption>Un gran Ingeniero, sabes que cuentas conmigo, que eres muy importante para mi y te apoyaré, mi deseo es que siempre estes lo mejor posible. Te amo muchisimo mil vueltas a la luna ida y vuelta con todo y piruetas. Te amooooooo</figcaption>
+                    </figure>
+                </a>
+            </article>
+			<h1>Muchas garcias por todos estos momentos por amarme como lo haces, por hacer todo para que esto continue, creeme que Te amo demasiado, me importas demasiado y tambien hago y pongo todo de mi parte para seguir juntando muchos muchisimos mas recuerdos hasta que la red colapse. Te amo muchisimisimo demasiado MI AMOR 💕</h1>
+        </section>
+    </main>
+</body>
+
+</html>
